@@ -30,6 +30,7 @@
 .autoplay-media-icon.blocked-permission-icon {
 	list-style-image: url("icons/audio-muted-symbolic.svg") !important;
 }
+/*Disabled by default, because overlay GTK style*/
 /* Menu checkbox */
 /*menuitem[type="checkbox"] {
 	list-style-image: url("icons/checkbox-symbolic.svg") !important;
@@ -326,6 +327,7 @@ arrowscrollbox[orient="horizontal"] {
 #context-stop {
 	list-style-image: url("icons/process-stop-symbolic.svg") !important;
 }
+/*Disabled by default, because overlay GTK style*/
 /* Menu radio */
 /*menuitem[type="radio"] {
 	list-style-image: url("icons/radio-symbolic.svg") !important;
