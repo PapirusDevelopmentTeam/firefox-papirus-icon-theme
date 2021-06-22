@@ -383,8 +383,9 @@ menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 #context-reload {
 	list-style-image: url("icons/view-refresh-symbolic.svg") !important;
 }
+/*Disabled by default, because overlay GTK style*/
 /* Window buttons */
-:root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-close .toolbarbutton-icon {
+/*:root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-close .toolbarbutton-icon {
 	list-style-image: url("icons/window-close-symbolic.svg") !important;
 }
 :root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-max .toolbarbutton-icon {
@@ -398,7 +399,7 @@ menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 }
 :root[tabsintitlebar][inFullscreen] #window-controls #restore-button .toolbarbutton-icon {
 	list-style-image: url("icons/view-restore-symbolic.svg") !important;
-}
+}*/
 /* New window button */
 #new-window-button {
 	list-style-image: url("icons/window-new-symbolic.svg") !important;
