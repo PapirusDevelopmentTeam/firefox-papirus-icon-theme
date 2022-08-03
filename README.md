@@ -70,4 +70,3 @@ GTK_DEBUG=interactive firefox
 Used scripts by **[Rafael Mardojai CM](https://github.com/rafaelmardojai)** and [contributors](https://github.com/rafaelmardojai/firefox-gnome-theme/graphs/contributors). Based on **[Sai Kurogetsu](https://github.com/kurogetsusai/firefox-gnome-theme)** original work.
 
 ## Donate
-If you want to support development, consider donating via [PayPal](https://paypal.me/varlesh).
