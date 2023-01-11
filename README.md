@@ -18,29 +18,33 @@ This theme is supposed to work with current supported Firefox releases:
 ## Installation
 
 ### Installation script
+
 Clone this repo and enter folder and run script:
-	
-	```sh
-	git clone https://github.com/PapirusDevelopmentTeam/firefox-papirus-icon-theme.git && cd firefox-papirus-icon-theme
-	./scripts/install.sh
-	```
+
+```sh
+git clone https://github.com/PapirusDevelopmentTeam/firefox-papirus-icon-theme.git && cd firefox-papirus-icon-theme
+./scripts/install.sh
+```
 
 #### Install script
-	```sh
-	./scripts/install.sh # Standard
-	./scripts/install.sh -f ~/.var/app/org.mozilla.firefox/.mozilla/firefox # Flatpak
-	```
+
+```sh
+./scripts/install.sh # Standard
+./scripts/install.sh -f ~/.var/app/org.mozilla.firefox/.mozilla/firefox # Flatpak
+```
 
 ##### Script options
-	- `-f <firefox_folder_path>` *optional*
-		- Set custom Firefox folder path, for example `~/.mozilla/icecat/`.
-		- Default: `~/.mozilla/firefox/`
 
-	- `-p <profile_name>` *optional*
-		- Set custom profile name, for example `e0j6yb0p.default-nightly`.
-		- Default: All the profiles found in the firefox folder
+- `-f <firefox_folder_path>` *optional*
+    - Set custom Firefox folder path, for example `~/.mozilla/icecat/`.
+    - Default: `~/.mozilla/firefox/`
+
+- `-p <profile_name>` *optional*
+    - Set custom profile name, for example `e0j6yb0p.default-nightly`.
+    - Default: All the profiles found in the firefox folder
 
 ## Uninstalling
+
 1. Go to your profile folder. (Go to `about:support` in Firefox > Application Basics > Profile Directory > Open Directory)
 2. Remove `chrome` folder.
 
@@ -67,6 +71,7 @@ GTK_DEBUG=interactive firefox
 ```
 
 ## Credits
+
 Used scripts by **[Rafael Mardojai CM](https://github.com/rafaelmardojai)** and [contributors](https://github.com/rafaelmardojai/firefox-gnome-theme/graphs/contributors). Based on **[Sai Kurogetsu](https://github.com/kurogetsusai/firefox-gnome-theme)** original work.
 
 ## Donate
