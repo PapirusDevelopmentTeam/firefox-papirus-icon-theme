@@ -80,7 +80,7 @@ menuitem[type="checkbox"][disabled="true"] .menu-iconic-icon {
   list-style-image: url("icons/channel-secure-symbolic.svg") !important;
 }
 #identity-popup[connection^="secure"] .identity-popup-security-connection {
-	background-image: url("icons/channel-secure-symbolic.svg") !important;
+	list-style-image: url("icons/channel-secure-symbolic.svg") !important;
 }
 #identity-box[pageproxystate="valid"].notSecure #identity-icon,
 #identity-box[pageproxystate="valid"].mixedActiveContent #identity-icon,
@@ -88,7 +88,7 @@ menuitem[type="checkbox"][disabled="true"] .menu-iconic-icon {
     list-style-image: url("icons/channel-insecure-symbolic.svg") !important;
 }
 .identity-popup-security-connection {
-	background-image: url("icons/channel-insecure-symbolic.svg") !important;
+	list-style-image: url("icons/channel-insecure-symbolic.svg") !important;
 }
 #permissions-granted-icon {
     list-style-image: url("icons/multimedia-equalizer-symbolic.svg") !important;
@@ -252,16 +252,16 @@ arrowscrollbox[orient="horizontal"] {
 .findbar-find-next {
     list-style-image: url("icons/go-down-symbolic.svg") !important;
 }
-/* Back button */	
+/* Back button */
 #nav-bar #back-button,
-#context-back { 
+#context-back {
 	list-style-image: url("icons/go-previous-symbolic.svg") !important;
 }
-/* Forward button */	
+/* Forward button */
 #nav-bar #forward-button,
 #context-forward,
 #urlbar-go-button,
-.search-go-button { 
+.search-go-button {
 	list-style-image: url("icons/go-next-symbolic.svg") !important;
 }
 /* Info */
