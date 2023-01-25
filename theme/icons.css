@@ -327,6 +327,10 @@ arrowscrollbox[orient="horizontal"] {
 #context-stop {
 	list-style-image: url("icons/process-stop-symbolic.svg") !important;
 }
+/* Extension button */
+#unified-extensions-button {
+	list-style-image: url("icons/extension.svg") !important;
+}
 /*Disabled by default, because overlay GTK style*/
 /* Menu radio */
 /*menuitem[type="radio"] {
