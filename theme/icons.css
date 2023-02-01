@@ -96,11 +96,8 @@ menuitem[type="checkbox"][disabled="true"] .menu-iconic-icon {
 .popup-notification-icon[popupid="web-notifications"], .desktop-notification-icon {
     list-style-image: url("icons/message-symbolic.svg") !important;
 }
-#reader-mode-button {
+#reader-mode-button > .urlbar-icon {
 	list-style-image: url("icons/reader-mode-symbolic.svg") !important;
-}
-.urlbar-icon {
-	margin: 0px 0 !important;
 }
 /* Search entries */
 #urlbar:not(.searchButton) > #urlbar-input-container > #identity-box[pageproxystate="invalid"] > #identity-icon,
