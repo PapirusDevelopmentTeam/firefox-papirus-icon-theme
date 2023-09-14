@@ -342,9 +342,8 @@ list-style-image: url("icons/radio-checked-symbolic.svg") !important;
 menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 opacity: 0.5;
 }*/
-/* Preferences button */
-#preferences-button,
-.search-setting-button-compact > .button-box > .button-icon {
+/* Search setting button */
+.search-setting-button > .button-box > .button-icon {
   list-style-image: url("icons/settings-symbolic.svg") !important;
 }
 /* Tabs sync */
