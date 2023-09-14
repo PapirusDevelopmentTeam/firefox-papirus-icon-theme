@@ -353,6 +353,11 @@ opacity: 0.5;
 #urlbar-engine-one-off-item-tabs {
   list-style-image: url("icons/tab-sync-symbolic.svg") !important;
 }
+/* Search bar actions button */
+.urlbarView-row[source="actions"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon,
+#urlbar-engine-one-off-item-actions {
+  list-style-image: url("icons/quickactions.svg") !important;
+}
 /* User button */
 #fxa-toolbar-menu-button {
   list-style-image: url("icons/user-available-symbolic.svg") !important;
