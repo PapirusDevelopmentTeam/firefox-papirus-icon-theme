@@ -328,6 +328,9 @@ arrowscrollbox[orient="horizontal"] {
 #unified-extensions-button {
   list-style-image: url("icons/extension.svg") !important;
 }
+.unified-extensions-item-menu-button.subviewbutton {
+  list-style-image: url("icons/settings-symbolic.svg") !important;
+}
 /*Disabled by default, because overlay GTK style*/
 /* Menu radio */
 /*menuitem[type="radio"] {
