@@ -431,6 +431,10 @@ list-style-image: url("icons/view-restore-symbolic.svg") !important;
   padding: 0px !important;
   border-radius: var(--tab-border-radius);
 }
+/* Close button in all tabs menu */
+.all-tabs-close-button {
+  list-style-image: url("icons/close-12.svg") !important;
+}
 /* Zoom out button */
 #zoom-out-button,
 #appMenu-zoomReduce-button2 {
