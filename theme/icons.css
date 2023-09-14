@@ -322,7 +322,7 @@ arrowscrollbox[orient="horizontal"] {
 #stop-button,
 .downloadIconCancel > .button-box > .button-icon,
 #context-stop {
-  list-style-image: url("icons/process-stop-symbolic.svg") !important;
+  list-style-image: url("icons/stop.svg") !important;
 }
 /* Extension button */
 #unified-extensions-button {
