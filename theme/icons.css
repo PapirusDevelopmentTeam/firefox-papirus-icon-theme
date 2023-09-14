@@ -457,6 +457,14 @@ list-style-image: url("icons/view-restore-symbolic.svg") !important;
   padding: 3px;
   color: FieldText;
 }
+/* Toolbar preferences button */
+#preferences-button {
+  list-style-image: url("icons/settings-symbolic.svg") !important;
+}
+/* Toolbar passwords button */
+#logins-button {
+  list-style-image: url("icons/passwords.svg") !important;
+}
 /* Toolbar bookmarks */
 #bookmarks-toolbar-button, #bookmarks-toolbar-placeholder {
   list-style-image: url("icons/toolbar-bookmarks-symbolic.svg") !important;
