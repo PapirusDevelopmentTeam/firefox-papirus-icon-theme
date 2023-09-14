@@ -464,6 +464,10 @@ list-style-image: url("icons/view-restore-symbolic.svg") !important;
 .microphone-icon.blocked-permission-icon {
   list-style-image: url("icons/microphone-blocked.svg") !important;
 }
+/* Persistent storage icon inside permission popup */
+.persistent-storage-icon {
+  list-style-image: url("icons/persistent-storage.svg") !important;
+}
 /* Hack icons color */
 .textbox-search-sign,
 .menu-right {
