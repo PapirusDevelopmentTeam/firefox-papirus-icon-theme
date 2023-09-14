@@ -450,6 +450,13 @@ list-style-image: url("icons/view-restore-symbolic.svg") !important;
 #bookmarks-toolbar-button, #bookmarks-toolbar-placeholder {
   list-style-image: url("icons/toolbar-bookmarks-symbolic.svg") !important;
 }
+/* Toolbar picture-in-picture button */
+#picture-in-picture-button[pipactive] > .urlbar-icon {
+  list-style-image: url("icons/picture-in-picture-closed.svg") !important;
+}
+#picture-in-picture-button > .urlbar-icon {
+  list-style-image: url("icons/picture-in-picture-open.svg") !important;
+}
 /* Hack icons color */
 .textbox-search-sign,
 .menu-right {
