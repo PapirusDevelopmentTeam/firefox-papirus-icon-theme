@@ -501,6 +501,14 @@ list-style-image: url("icons/view-restore-symbolic.svg") !important;
     transform: rotate(360deg);
   }
 }
+/* Fix blurred icon on fullscreen button */
+#appMenu-fullscreen-button2 > .toolbarbutton-icon {
+  padding: unset !important;
+  background-color: unset !important;
+}
+#appMenu-fullscreen-button2:not([disabled]):hover > .toolbarbutton-icon {
+  background-color: unset !important;
+}
 /* Hack icons color */
 .textbox-search-sign,
 .menu-right {
