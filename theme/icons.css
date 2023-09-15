@@ -487,6 +487,20 @@ list-style-image: url("icons/view-restore-symbolic.svg") !important;
 .persistent-storage-icon {
   list-style-image: url("icons/persistent-storage.svg") !important;
 }
+/* Tab spinner */
+.tab-throbber::before {
+  animation: spinner 1s linear infinite !important;
+  background-image: url("icons/process-working-symbolic.svg") !important;
+  width: 16px !important;
+}
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 /* Hack icons color */
 .textbox-search-sign,
 .menu-right {
