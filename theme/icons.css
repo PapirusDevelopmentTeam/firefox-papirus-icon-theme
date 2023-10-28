@@ -476,6 +476,9 @@ list-style-image: url("icons/view-restore-symbolic.svg") !important;
 #picture-in-picture-button > .urlbar-icon {
   list-style-image: url("icons/picture-in-picture-open.svg") !important;
 }
+#firefox-view-button {
+  list-style-image: url("icons/firefox-view.svg") !important;
+}
 /* Microphone permission status icon */
 .microphone-icon {
   list-style-image: url("icons/microphone.svg") !important;
