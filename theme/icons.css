@@ -448,15 +448,6 @@ list-style-image: url("icons/view-restore-symbolic.svg") !important;
 #import-button {
   list-style-image: url("icons/document-import-symbolic.svg") !important;
 }
-/* View buttons */
-#viewGroup > radio {
-  list-style-image: url("icons/pageInfo.png") !important;
-  appearance: none;
-  min-width: 4.5em;
-  margin: 0;
-  padding: 3px;
-  color: FieldText;
-}
 /* Toolbar preferences button */
 #preferences-button {
   list-style-image: url("icons/settings-symbolic.svg") !important;
